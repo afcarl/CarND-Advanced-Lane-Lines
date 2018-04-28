@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 
 def camera_calibration(root_dir='camera_cal',
-                       calibrated_dir='calibrated_dir', nx=8, ny=6):
+                       calibrated_dir='calibrated_dir', nx=9, ny=6):
     # read each pathname in camera_cal folder
     images = glob.glob('camera_cal/calibration*.jpg')
 
