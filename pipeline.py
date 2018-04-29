@@ -82,4 +82,4 @@ def pipeline_test_images():
     pipeline()
     pass
 
-camera_calibration()
+# camera_calibration()
